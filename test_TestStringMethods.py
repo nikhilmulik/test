@@ -5,7 +5,7 @@ class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):
         result= add_1.add_1(2,4)
-        self.assertEqual(result, 6)
+        self.assertEqual(result,7)
 
     def test_upper_sub(self):
         result= add_1.sub_1(6,4)
